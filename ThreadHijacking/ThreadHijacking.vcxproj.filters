@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Handle\Handle.cpp">
+      <Filter>Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="NT\NT.cpp">
+      <Filter>NT</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d44bd939-eceb-49f5-844b-5a4494981d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handle">
+      <UniqueIdentifier>{3264b65a-28e1-4057-98ae-b532f5ee977f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NT">
+      <UniqueIdentifier>{350b0bcb-c3dc-4efb-8fa0-b80b06b3714b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Handle\Handle.hpp">
+      <Filter>Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="NT\NT.hpp">
+      <Filter>NT</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
